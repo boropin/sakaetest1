@@ -1,0 +1,30 @@
+body {
+  background-color: #000000;
+  background-image:url("KEISOKU.png");
+  color: #FFFFFF;
+  text-align: center;
+  margin-top : 200px ;
+}
+
+
+div {
+  border: solid 10px #888888;/*線*/
+  border-radius: 20px;/*角の丸み*/
+
+  padding: 0.5em 1em;
+  margin: 0.5em 3em;
+  color: #AAFF00;/*文字色*/
+  background: #202020;
+
+  text-align: left;
+  line-height: 100px;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+
+img {
+  vertical-align: -40%;
+}
+
+
