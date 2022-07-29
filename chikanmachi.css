@@ -67,9 +67,40 @@ body {
   font-size: 60px;
 }
 
+.num1 {
+  font-size: 30px;
+  position: absolute;
+  font-weight: bold;
+  padding: 0; 
+  margin: -45px 0px 0px 10px
+}
+.num2 {
+  font-size: 30px;
+  position: absolute;
+  font-weight: bold;
+  padding: 0; 
+  margin: -45px 0px 0px 10px
+}
+
+.num3 {
+  font-size: 30px;
+  position: absolute;
+  font-weight: bold;
+  padding: 0; 
+  margin: -45px 0px 0px 10px
+}
+
+.num4 {
+  font-size: 30px;
+  position: absolute;
+  font-weight: bold;
+  padding: 0; 
+  margin: -45px 0px 0px 10px
+}
 
 img {
   vertical-align: -40%;
 }
+
 
 
