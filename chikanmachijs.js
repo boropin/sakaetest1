@@ -1,7 +1,6 @@
 	var request = new XMLHttpRequest();
 
-	request.open('GET', 'https://airoco.chuden.co.jp/data-api/latest?id=TM4QZcsW&subscription-key=6a27cdf2656940e7bdb9a70bef64b5a7', true);
-//request.open('GET', 'https://airoco.chuden.co.jp/data-api/latest?id=bSbDX8L2&subscription-key=e59d4264e28d400d911e21ad1fd95b43', true);
+	request.open('GET', 'https://airoco.chuden.co.jp/data-api/latest?id=EtbdjiJz&subscription-key=6a27cdf2656940e7bdb9a70bef64b5a7', true);
 
 	request.responseType = 'json';
 	request.send(null);
@@ -20,17 +19,10 @@
 	        var sn3 = 0;
 	        var sn4 = 0;
 	        
-	        var sNumber1 = "440103226797818";  // 対象センサ1の番号を入力する
-	        var sNumber2 = "440103227533695";  // 対象センサ2の番号を入力する
-	        var sNumber3 = "440103244344306";  // 対象センサ3の番号を入力する
-	        var sNumber4 = "440103244344306";  // 対象センサ4の番号を入力する ダミー
-
-
-	        //var sNumber1 = "001CC24F532F";  // 対象センサ1の番号を入力する
-	        //var sNumber2 = "001CC24F52CD";  // 対象センサ2の番号を入力する
-	        //var sNumber3 = "001CC24F5405";  // 対象センサ3の番号を入力する
-	        //var sNumber4 = "001CC24F52A2";  // 対象センサ4の番号を入力する
-
+	        var sNumber1 = "440103227533427";  // 対象センサ1の番号を入力する
+	        var sNumber2 = "440103228416982";  // 対象センサ2の番号を入力する
+	        var sNumber3 = "999999999999996";  // 対象センサ3の番号を入力する
+	        var sNumber4 = "999999999999996";  // 対象センサ4の番号を入力する ダミー
 
 
 	        jsons = JSON.parse(data);
@@ -93,16 +85,10 @@
 			        var sn3 = 0;
 			        var sn4 = 0;
 			        
-			        var sNumber1 = "440103226797818";  // 対象センサ1の番号を入力する
-			        var sNumber2 = "440103227533695";  // 対象センサ2の番号を入力する
-			        var sNumber3 = "440103244344306";  // 対象センサ3の番号を入力する
-			        var sNumber4 = "440103244344306";  // 対象センサ4の番号を入力する ダミー
-
-			        //var sNumber1 = "001CC24F532F";  // 対象センサ1の番号を入力する
-			        //var sNumber2 = "001CC24F52CD";  // 対象センサ2の番号を入力する
-			        //var sNumber3 = "001CC24F5405";  // 対象センサ3の番号を入力する
-			        //var sNumber4 = "001CC24F52A2";  // 対象センサ4の番号を入力する
-
+			        var sNumber1 = "440103227533427";  // 対象センサ1の番号を入力する
+			        var sNumber2 = "440103228416982";  // 対象センサ2の番号を入力する
+			        var sNumber3 = "999999999999996";  // 対象センサ3の番号を入力する
+			        var sNumber4 = "999999999999996";  // 対象センサ4の番号を入力する ダミー
 
 					jsons = JSON.parse(data);
 
