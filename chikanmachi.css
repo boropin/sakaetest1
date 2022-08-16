@@ -1,37 +1,37 @@
 body {
   background-color: #000000;
-  background-image:url("KEISOKU.png");
+  background-image:url("KEISOKU02.png");
   color: #FFFFFF;
   text-align: center;
-  margin-top : 200px ;
+  margin-top : 300px ;
 }
 
 
 .box1 {
-  border: solid 10px #888888;/*線*/
-  border-radius: 20px;/*角の丸み*/
+  border: solid 10px #AAFFCC;/*線*/
+  border-radius: 60px;/*角の丸み*/
 
   padding: 0.5em 1em;
   margin: 0.5em 3em;
-  color: #AAFF00;/*文字色*/
+  color: #FFFFFF;/*文字色*/
   background: #202020;
 
-  text-align: left;
+  text-align: center;
   line-height: 100px;
   font-weight: bold;
   font-size: 60px;
 }
 
 .box2 {
-  border: solid 10px #888888;/*線*/
-  border-radius: 20px;/*角の丸み*/
+  border: solid 10px #AAFFCC;/*線*/
+  border-radius: 60px;/*角の丸み*/
 
   padding: 0.5em 1em;
   margin: 0.5em 3em;
-  color: #AAFF00;/*文字色*/
+  color: #FFFFFF;/*文字色*/
   background: #202020;
 
-  text-align: left;
+  text-align: center;
   line-height: 100px;
   font-weight: bold;
   font-size: 60px;
@@ -69,17 +69,15 @@ body {
 
 .num1 {
   font-size: 30px;
-  position: absolute;
   font-weight: bold;
   padding: 0; 
-  margin: -45px 0px 0px 10px
+  margin: -45px 0px -40px 0px
 }
 .num2 {
   font-size: 30px;
-  position: absolute;
   font-weight: bold;
   padding: 0; 
-  margin: -45px 0px 0px 10px
+  margin: -45px 0px -40px 0px
 }
 
 .num3 {
